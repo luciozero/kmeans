@@ -54,6 +54,7 @@ namespace K_means
             while (!igual)
             {
                 cont++;
+                clear(Kmeans[1], Kmeans[2], Kmeans[3], Kmeans[4], Kmeans[5], Kmeans[6], Kmeans[7]);
                 #region Definindo idade de acordo com seu centro
                 foreach (DataRow row in dtInfo.Rows)
                 {
